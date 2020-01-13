@@ -8,8 +8,8 @@ import android.widget.TextView
 import android.widget.Toast
 import com.tuktukhop.audio.aadcpreparation.R
 
-fun showToast(context: Context){
-    val toast = Toast.makeText(context, "Test toast", Toast.LENGTH_SHORT)
+fun showToast(context: Context, text: String){
+    val toast = Toast.makeText(context, text, Toast.LENGTH_SHORT)
         toast.setGravity(Gravity.TOP, 0 , 0)
         toast.show()
 }
